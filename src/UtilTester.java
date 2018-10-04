@@ -4,6 +4,7 @@
 // you to run the test cases!
 
 import org.junit.*;
+
 import static org.junit.Assert.assertEquals;
 
 public class UtilTester {
@@ -58,7 +59,7 @@ public class UtilTester {
 
     @Test
     public void testLongUsername() {
-        assertEquals("mdecimus", StringUtils.makePurdueUsername("maximus", "decimus-meridius"));
+        assertEquals("mdecimus", StringUtils.makePurdueUsername("maximus", "decimus-meridius"));//"maximus", "decimus-meridius"
     }
 
     @Test
